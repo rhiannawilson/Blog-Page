@@ -1,5 +1,4 @@
 # Blog Page 
-
 A public blogging page for users to create their own blog posts
 
 ## Description
