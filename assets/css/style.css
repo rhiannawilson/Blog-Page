@@ -33,7 +33,7 @@
 
 /* add a moon icon for when dark mode is active */
 .dark-mode #modeToggle::after {
-  content: '🌙';
+  content: '🌓';
   color: #f0e68c;
 
 }

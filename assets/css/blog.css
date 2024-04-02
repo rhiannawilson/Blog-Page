@@ -8,7 +8,7 @@ header {
     justify-content: space-around;
 }
 
-/* p {
+ p {
     padding-left: 35px;
     padding-bottom: 20px;
 }
@@ -16,7 +16,7 @@ header {
 h1 {
     padding: 10px;
     margin: 10px;
-} */
+}
 
 
 /* new code */
@@ -34,7 +34,7 @@ main {
     border-radius: 8px;
     padding: 20px;
     margin-bottom: 20px;
-    background-color: #f8f8f8;
+    background-color: #baa768;
     border-style: double;
 }
 
@@ -109,10 +109,11 @@ h4::before {
     padding-top: 20px;
 }
 
-/* #endBorder {
+#endBorder {
     border-bottom: 3px solid black;
     border-bottom-style: double;
-} */
+    position: absolute;
+} 
 
 #withLove {
     text-align: center;
@@ -151,8 +152,9 @@ footer {
 
   a {
     text-decoration: none;
-    color: white;
-  }
+    color: #a39056;
+    font: bold;
+}
 
 
 

@@ -75,6 +75,19 @@ Blog-Page
 3. Colours ‘Cadetblue’ - vision and design
 
 
+#### Main Page
+![Website 'Main' Image](./assets/images/Blog%20Page%20-%20Main%20.jpg)
+
+#### Main Page - Dark Mode
+![Website 'Main DarkMode' Image](./assets/images/Blog%20Page%20-%20Main%20(dark%20mode).jpg)
+
+#### Posts Page
+
+![Website 'Posts' Image](./assets/images/Blog%20Page%20-%20Posts%20.jpg)
+
+#### Posts Page - Dark Mode 
+![Website 'Posts DarkMode' Image](./assets/images/Blog%20Page%20-%20Posts%20(dark%20mode).jpg)
+
 ## Credits
 N/A
 
