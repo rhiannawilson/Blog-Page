@@ -6,6 +6,9 @@ A public blogging page for users to create their own blog posts
 
 This is a two-page website where users can input and view blog posts. It includes building a content form, dynamically rendering blog posts, and implementing a light/dark mode toggle. 
 
+## Deployment Link
+https://rhiannawilson.github.io/Blog-Page/
+
 ### User Story
 
     AS A marketing student,
