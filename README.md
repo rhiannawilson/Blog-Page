@@ -1,20 +1,18 @@
-# Blogging-Page
-A page to blog
+# Blog Page 
 
+A public blogging page for users to create their own blog posts
 
-# Blogging Page
+## Description
 
-## Your Task
+This is a two-page website where users can input and view blog posts. It includes building a content form, dynamically rendering blog posts, and implementing a light/dark mode toggle. 
 
-Here I have created a two-page website where users can input and view blog posts. It includes building a content form, dynamically rendering blog posts, and implementing a light/dark mode toggle. 
-
-## User Story
+### User Story
 
     AS A marketing student,
     I WANT a personal blog
     SO THAT I can showcase my thoughts and experiences.
 
-## Acceptance Criteria
+### Acceptance Criteria
 
     GIVEN a personal blog
     WHEN I load the app,
@@ -39,7 +37,6 @@ Here I have created a two-page website where users can input and view blog posts
     THEN I can see the title, the content, and the author of the post.
     WHEN I view the footer,
     THEN I am presented with a link to the developer's portfolio.
-    ```
 
 ## File Structure
 
@@ -53,6 +50,33 @@ Blog-Page
 │       ├── blog.js
 │       ├── form.js
 │       └── logic.js
+├── myPages
+│   ├── blog.html
 ├── index.html
-├── blog.html
+└── LICENSE
 └── README.md
+
+
+## Usage
+### Website Features
+- HTML
+- CSS
+- JavaScript
+- Form
+- 2 Webpages 
+- 1. Main page displaying the form
+- 2. Blog page displaying the blog posts
+
+
+### Technical Details
+#### This website uses simple styling using CSS & HTML in 3 key ways
+1. Background Colour ‘Whitesmoke’ - base colour
+2. Font Style ‘Darkgrey’ - typography
+3. Colours ‘Cadetblue’ - vision and design
+
+
+## Credits
+N/A
+
+## License
+Please refer to the LICENSE in the repo
