@@ -1,0 +1,44 @@
+/* MAIN STYLE SHEET FOR ALL PAGES */
+* {
+    box-sizing: border-box;
+    max-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+  
+ @media screen and (max-width: 600px) {
+} 
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0ead6;
+    min-height: 100vh;
+    transition: background-color 0.5s;
+  }
+
+
+#modeToggle {
+  background-color: transparent;
+}
+.dark-mode {
+  background-color: transparent;
+  color: #fff;
+}
+
+.light-mode {
+  background-color: black;
+  color: #f0ead6;
+}
+
+
+/* add a moon icon for when dark mode is active */
+.dark-mode #modeToggle::after {
+  content: '🌙';
+  color: #f0e68c;
+
+}
+
+/* Hide the sun character when dark mode is active */
+.dark-mode #modeToggle {
+  color: transparent; /* Makes the sun character invisible */
+}

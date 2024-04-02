@@ -1,0 +1,159 @@
+header {
+    border-bottom: 3px solid black;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/* p {
+    padding-left: 35px;
+    padding-bottom: 20px;
+}
+
+h1 {
+    padding: 10px;
+    margin: 10px;
+} */
+
+
+/* new code */
+
+
+#postsList {
+    padding: 1em;
+}
+
+main {
+    border-top: double 5px;
+} 
+
+.post-container {
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f8f8f8;
+    border-style: double;
+}
+
+.post-container h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.post-container p {
+    color: #666;
+    border-style: double 3px;
+}
+
+.post-container span {
+    display: block;
+    margin-top: 20px;
+    font-style: italic;
+    color: #000;
+    
+}
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+    }
+
+    nav button {
+        margin-top: 0.5em;
+    }
+
+    footer {
+        position: static;
+    }
+}
+
+
+/* old code */
+/* 
+.bloggingSection {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+
+.spaceBetweenBlogs {
+    margin: 5px;
+    padding-right: 5px;
+} 
+
+.blogContent {
+    border: 2px solid black;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    padding: 10px 10px;
+    text-wrap: wrap;
+} */
+
+h4 {
+    padding: 10px;
+}
+
+h4::before {
+  content:" ";
+  position: absolute;
+  border-bottom: 1px solid black; /*use this to adjust underlin color and size*/
+  width: 94%;  /*use this to adjust underline width*/
+  height:1.1em; /*use this to adjust underline position*/
+}
+
+#postedBy {
+    color: #a39056;
+    padding-top: 20px;
+}
+
+/* #endBorder {
+    border-bottom: 3px solid black;
+    border-bottom-style: double;
+} */
+
+#withLove {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.blogPageInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-style: italic;
+}
+
+button {
+    font-size: large;
+    background-color: transparent;
+    border: none;
+ }
+
+footer {
+    background: linear-gradient(#f6a50f,#d2972a,#b78f45, #846a2d);
+}
+
+#modeToggle {
+    background-color: transparent;
+  }
+  .dark-mode {
+    background-color: transparent;
+    color: #fff;
+  }
+  
+  .light-mode {
+    background-color: black;
+    color: #f0ead6;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+
+
+
