@@ -40,22 +40,26 @@ This is a two-page website where users can input and view blog posts. It include
 
 ## File Structure
 
-Blog-Page
-├── assets
-│   ├── css
-│   │   ├── blog.css
-│   │   ├── form.css
-│   │   └── styles.css
-│   └── js
-│       ├── blog.js
-│       ├── form.js
-│       └── logic.js
-├── myPages
-│   ├── blog.html
-├── index.html
-└── LICENSE
-└── README.md
-
+- > Blog-Page
+- >
+- >> assets
+- >
+- >>> css
+- >>>> blog.css
+- >>>> form.css
+- >>>> styles.css
+- >
+- >>> js
+- >>>> blog.js
+- >>>> form.js
+- >>>> logic.js
+- >
+- >> myPages
+- >>> blog.html
+- >
+- > index.html
+- > LICENSE
+- > README.md
 
 ## Usage
 ### Website Features
@@ -63,17 +67,16 @@ Blog-Page
 - CSS
 - JavaScript
 - Form
-- 2 Webpages 
+- Webpages:  
 - 1. Main page displaying the form
 - 2. Blog page displaying the blog posts
 
 
 ### Technical Details
-#### This website uses simple styling using CSS & HTML in 3 key ways
-1. Background Colour ‘Whitesmoke’ - base colour
-2. Font Style ‘Darkgrey’ - typography
-3. Colours ‘Cadetblue’ - vision and design
-
+#### This website uses simple styling using HTML, CSS and JavaScript
+1. Background Colour - #f0ead6
+2. Font - Arial, Helvetica, sans-serif;
+3. Transition modeToggle - 0.5s
 
 #### Main Page
 ![Website 'Main' Image](./assets/images/Blog%20Page%20-%20Main%20.jpg)
@@ -82,7 +85,6 @@ Blog-Page
 ![Website 'Main DarkMode' Image](./assets/images/Blog%20Page%20-%20Main%20(dark%20mode).jpg)
 
 #### Posts Page
-
 ![Website 'Posts' Image](./assets/images/Blog%20Page%20-%20Posts%20.jpg)
 
 #### Posts Page - Dark Mode 
