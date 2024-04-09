@@ -19,7 +19,7 @@ document.getElementById('blogForm').addEventListener('submit', function (event) 
     localStorage.setItem('blogPosts', JSON.stringify(posts));
 
     // blogForm.reset();
-    window.location.href ='/myPages/blog.html';
+    window.location.href ='blog.html';
 
 });
 
